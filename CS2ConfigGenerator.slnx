@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CS2ConfigGenerator/CS2ConfigGenerator.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CS2ConfigGenerator.Tests/CS2ConfigGenerator.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          # .slnx needs SDK 9+; the .NET 8 runtime is needed to run the net8.0 tests
+          dotnet-version: |
+            8.0.x
+            10.0.x
+      - run: dotnet build CS2ConfigGenerator.slnx -c Release
+      - run: dotnet test tests/CS2ConfigGenerator.Tests -c Release --no-build
+      - name: Publish
+        run: dotnet publish src/CS2ConfigGenerator -c Release -r win-x64 --self-contained false -o publish
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CS2ConfigGenerator-win-x64
+          path: publish

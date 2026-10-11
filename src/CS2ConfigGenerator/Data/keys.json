@@ -1,0 +1,67 @@
+{
+  "sections": [
+    {
+      "name": "Klawiatura",
+      "rows": [
+        { "y": 0, "keys": [
+          { "id": "escape", "label": "Esc" }, { "gap": 1 },
+          { "id": "f1", "label": "F1" }, { "id": "f2", "label": "F2" }, { "id": "f3", "label": "F3" }, { "id": "f4", "label": "F4" }, { "gap": 0.5 },
+          { "id": "f5", "label": "F5" }, { "id": "f6", "label": "F6" }, { "id": "f7", "label": "F7" }, { "id": "f8", "label": "F8" }, { "gap": 0.5 },
+          { "id": "f9", "label": "F9" }, { "id": "f10", "label": "F10" }, { "id": "f11", "label": "F11" }, { "id": "f12", "label": "F12" }
+        ] },
+        { "y": 1.5, "keys": [
+          { "gap": 1 },
+          { "id": "1", "label": "1" }, { "id": "2", "label": "2" }, { "id": "3", "label": "3" }, { "id": "4", "label": "4" }, { "id": "5", "label": "5" },
+          { "id": "6", "label": "6" }, { "id": "7", "label": "7" }, { "id": "8", "label": "8" }, { "id": "9", "label": "9" }, { "id": "0", "label": "0" },
+          { "id": "-", "label": "-" }, { "id": "=", "label": "=" }, { "id": "backspace", "label": "Backspace", "w": 2 }, { "gap": 0.5 },
+          { "id": "ins", "label": "Ins" }, { "id": "home", "label": "Home" }, { "id": "pgup", "label": "PgUp" }
+        ] },
+        { "y": 2.5, "keys": [
+          { "id": "tab", "label": "Tab", "w": 1.5 },
+          { "id": "q", "label": "Q" }, { "id": "w", "label": "W" }, { "id": "e", "label": "E" }, { "id": "r", "label": "R" }, { "id": "t", "label": "T" },
+          { "id": "y", "label": "Y" }, { "id": "u", "label": "U" }, { "id": "i", "label": "I" }, { "id": "o", "label": "O" }, { "id": "p", "label": "P" },
+          { "id": "[", "label": "[" }, { "id": "]", "label": "]" }, { "id": "\\", "label": "\\", "w": 1.5 }, { "gap": 0.5 },
+          { "id": "del", "label": "Del" }, { "id": "end", "label": "End" }, { "id": "pgdn", "label": "PgDn" }
+        ] },
+        { "y": 3.5, "keys": [
+          { "id": "capslock", "label": "Caps Lock", "w": 1.75 },
+          { "id": "a", "label": "A" }, { "id": "s", "label": "S" }, { "id": "d", "label": "D" }, { "id": "f", "label": "F" }, { "id": "g", "label": "G" },
+          { "id": "h", "label": "H" }, { "id": "j", "label": "J" }, { "id": "k", "label": "K" }, { "id": "l", "label": "L" },
+          { "id": "semicolon", "label": ";" }, { "id": "'", "label": "'" }, { "id": "enter", "label": "Enter", "w": 2.25 }
+        ] },
+        { "y": 4.5, "keys": [
+          { "id": "shift", "label": "Shift", "w": 2.25 },
+          { "id": "z", "label": "Z" }, { "id": "x", "label": "X" }, { "id": "c", "label": "C" }, { "id": "v", "label": "V" }, { "id": "b", "label": "B" },
+          { "id": "n", "label": "N" }, { "id": "m", "label": "M" }, { "id": ",", "label": "," }, { "id": ".", "label": "." }, { "id": "/", "label": "/" },
+          { "id": "rshift", "label": "R Shift", "w": 2.75 }, { "gap": 1.5 },
+          { "id": "uparrow", "label": "↑" }
+        ] },
+        { "y": 5.5, "keys": [
+          { "id": "ctrl", "label": "Ctrl", "w": 1.25 }, { "gap": 1.25 },
+          { "id": "alt", "label": "Alt", "w": 1.25 }, { "id": "space", "label": "Spacja", "w": 6.25 }, { "id": "ralt", "label": "R Alt", "w": 1.25 },
+          { "gap": 2.5 }, { "id": "rctrl", "label": "R Ctrl", "w": 1.25 }, { "gap": 0.5 },
+          { "id": "leftarrow", "label": "←" }, { "id": "downarrow", "label": "↓" }, { "id": "rightarrow", "label": "→" }
+        ] }
+      ]
+    },
+    {
+      "name": "Numpad",
+      "rows": [
+        { "y": 0, "keys": [ { "id": "numlock", "label": "Num" }, { "id": "kp_slash", "label": "/" }, { "id": "kp_multiply", "label": "*" }, { "id": "kp_minus", "label": "-" } ] },
+        { "y": 1, "keys": [ { "id": "kp_home", "label": "7" }, { "id": "kp_uparrow", "label": "8" }, { "id": "kp_pgup", "label": "9" }, { "id": "kp_plus", "label": "+", "h": 2 } ] },
+        { "y": 2, "keys": [ { "id": "kp_leftarrow", "label": "4" }, { "id": "kp_5", "label": "5" }, { "id": "kp_rightarrow", "label": "6" } ] },
+        { "y": 3, "keys": [ { "id": "kp_end", "label": "1" }, { "id": "kp_downarrow", "label": "2" }, { "id": "kp_pgdn", "label": "3" }, { "id": "kp_enter", "label": "Enter", "h": 2 } ] },
+        { "y": 4, "keys": [ { "id": "kp_ins", "label": "0", "w": 2 }, { "id": "kp_del", "label": "." } ] }
+      ]
+    },
+    {
+      "name": "Mysz",
+      "rows": [
+        { "y": 0, "keys": [ { "id": "mouse1", "label": "MOUSE1 (LPM)", "w": 2, "h": 2 }, { "id": "mwheelup", "label": "KÓŁKO ↑", "w": 1.5 }, { "id": "mouse2", "label": "MOUSE2 (PPM)", "w": 2, "h": 2 } ] },
+        { "y": 1, "keys": [ { "gap": 2 }, { "id": "mouse3", "label": "MOUSE3 (kółko)", "w": 1.5 } ] },
+        { "y": 2, "keys": [ { "gap": 2 }, { "id": "mwheeldown", "label": "KÓŁKO ↓", "w": 1.5 } ] },
+        { "y": 3.5, "keys": [ { "id": "mouse4", "label": "MOUSE4", "w": 2 }, { "gap": 1.5 }, { "id": "mouse5", "label": "MOUSE5", "w": 2 } ] }
+      ]
+    }
+  ]
+}

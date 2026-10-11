@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Granaty",
+    "description": "HE, flash, smoke, molotov i decoy na klawiszach Z X C V G.",
+    "binds": [
+      { "key": "z", "category": "Granaty", "commands": ["slot6"] },
+      { "key": "x", "category": "Granaty", "commands": ["slot7"] },
+      { "key": "c", "category": "Granaty", "commands": ["slot8"] },
+      { "key": "v", "category": "Granaty", "commands": ["slot10"] },
+      { "key": "g", "category": "Granaty", "commands": ["slot9"] }
+    ]
+  },
+  {
+    "name": "Buy binds numpad",
+    "description": "Zakupy na numpadzie: pełny loadout, AWP, SMG, utility, kamizelka.",
+    "binds": [
+      { "key": "kp_end", "category": "Zakupy", "commands": ["buy vesthelm", "buy ak47", "buy m4a1", "buy defuser", "buy hegrenade", "buy flashbang", "buy smokegrenade", "buy molotov", "buy incgrenade"] },
+      { "key": "kp_downarrow", "category": "Zakupy", "commands": ["buy vesthelm", "buy awp", "buy defuser"] },
+      { "key": "kp_pgdn", "category": "Zakupy", "commands": ["buy vesthelm", "buy deagle", "buy defuser"] },
+      { "key": "kp_leftarrow", "category": "Zakupy", "commands": ["buy vesthelm", "buy mp9", "buy mac10", "buy defuser"] },
+      { "key": "kp_5", "category": "Zakupy", "commands": ["buy vest", "buy p250"] },
+      { "key": "kp_rightarrow", "category": "Zakupy", "commands": ["buy hegrenade", "buy flashbang", "buy flashbang", "buy smokegrenade", "buy molotov", "buy incgrenade"] },
+      { "key": "kp_ins", "category": "Zakupy", "commands": ["buy vesthelm", "buy defuser"] }
+    ]
+  },
+  {
+    "name": "Trening",
+    "description": "Noclip, restart, give weapon, trajektoria granatu. Włącza tryb treningowy.",
+    "trainingMode": true,
+    "binds": [
+      { "key": "n", "category": "Trening", "commands": ["noclip"] },
+      { "key": "f5", "category": "Trening", "commands": ["mp_restartgame 1"] },
+      { "key": "f6", "category": "Trening", "commands": ["give weapon_ak47"] },
+      { "key": "f7", "category": "Trening", "commands": ["give weapon_awp"] },
+      { "key": "f8", "category": "Trening", "commands": ["give weapon_hegrenade", "give weapon_flashbang", "give weapon_smokegrenade", "give weapon_molotov"] },
+      { "key": "f9", "category": "Trening", "commands": ["god"] },
+      { "key": "f10", "category": "Trening", "commands": ["bot_kick"] },
+      { "key": "mouse4", "category": "Trening", "commands": ["sv_rethrow_last_grenade"] },
+      { "key": "mouse5", "category": "Trening", "commands": ["toggle sv_grenade_trajectory_prac_pipreview"] }
+    ]
+  },
+  {
+    "name": "Reset",
+    "description": "Usuwa wszystkie bindy.",
+    "clear": true,
+    "binds": []
+  }
+]
